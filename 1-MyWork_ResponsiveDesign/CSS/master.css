@@ -234,7 +234,8 @@
 .information{
     padding: var(--sec-padding);
     min-height: var(--sec-height);
-    background-color: #eee;
+    background-color: #bdbdbd;
+    margin: 0;
 }
 .information>.container ul>li{
     background-color: #616161;
@@ -263,3 +264,26 @@
 }
 
 /* end information */
+/* start footer  */
+.footer{
+    height: 50px;
+    background-color: #212121;
+    color: #eee;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+/* footer media  */
+@media(max-width: 767px)
+{
+    .footer{
+        height: 70px;
+        padding: 3px;
+    }
+    .container{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }    
+}
+/* end footer  */
