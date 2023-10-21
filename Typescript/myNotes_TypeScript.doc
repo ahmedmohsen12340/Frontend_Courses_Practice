@@ -1,0 +1,95 @@
+Lec 2
+-------
+
+some terminal commands:
+
+* node -v :
+to get node version in device
+
+* npm i -g typescript :
+to install typescript
+
+* tsc -v :
+to get typescript version
+
+
+
+notes
+npm(node package manager)
+
+----------------------------------------------------------------------------------------
+lec 3
+--------
+some terminal commands:
+
+* tsc /*file name*/ :
+to create a javaScript file from typescript file 
+ex: tsc .\hello.ts 
+
+* tsc -h :
+to show help commands in terminal
+
+* tsc -w /*fileName*/ :
+to enter watch mode 
+
+* tsc --init :
+to create tsconfig.json
+
+some notes in tsconfig.json
+
+"rootDir": "./src",       /* Specify the root folder within your source files. */
+"outDir": "./dist",       /* Specify an output folder for all emitted files. */
+"removeComments": true,   /* Disable emitting comments. */
+"sourceMap": true,        /* Create source map files for emitted JavaScript files. */
+
+--------------------------------------------------------------------------------
+lec 5
+---------
+
+Type Annotation or signature:
+indicate data type of variable or func input or output
+
+ex:
+let myName: string = "Ali";
+let age: number = 25;
+let availability: boolean = true;
+
+some terminal commands:
+
+node /*file name*/:
+to execute js file in console
+
+--------------------------------------------------------------------
+lec 8
+------------
+
+some notes in tsconfig.json:
+
+"noImplicitAny": true,             /* Enable error reporting for expressions and declarations with an implied 'any' type. */
+"noImplicitReturns": true,         /* Enable error reporting for codepaths that do not explicitly return in a function. */
+"noUnusedLocals": true,            /* Enable error reporting when local variables aren't read. */
+"noUnusedParameters": true,        /* Raise an error when a function parameter isn't read. */
+
+--------------------------------------------------------------------------------
+lec 16
+------------
+
+some notes in tsconfig.json:
+
+"allowUnreachableCode": false,      /* Disable error reporting for unreachable code. */
+
+---------------------------------------------------------------------------------
+lec 18
+---------------
+some notes in tsconfig.json:
+
+"preserveConstEnums": true,        /* Disable erasing 'const enum' declarations in generated code. */
+
+----------------------------------------------------------------------------------
+lec 33
+----------------
+
+some notes in tsconfig.json:
+
+"noImplicitOverride": true,        /* Ensure overriding members in derived classes are marked with an override modifier. */
+
